@@ -8,4 +8,4 @@ Consiste na aplicação de métodos iterativos para a aproximação de um PVI.
 - Runge-Kutta de ordem 2 e 4
 
 ###To run?
-Altere os falores em "exemplo.rb" e manda um $ ruby exemplo.rb.
+Altere os valores em "exemplo.rb" e manda um $ ruby exemplo.rb.
