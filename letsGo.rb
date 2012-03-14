@@ -13,7 +13,7 @@ def aproximar_pvi(m,intervalo,h,x0,y0,rk,erro)
 		raise 'Runge-Kutta só pode ser de ordem 2 ou 4'
 	end
 
-	print_resposta ABM(m,0.1,passos_intermediarios,erro, intervalo)
+	print_resposta ABM(m,h,passos_intermediarios,erro, intervalo)
 end
 
 def print_resposta(hash)

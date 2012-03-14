@@ -76,7 +76,7 @@ def ABM(m, h, passos_intermediarios, erro, intervalo)
 	y_n = correcao[1]
 	passos_intermediarios[x_n] = y_n
 
-	ABM(m,h,passos_intermediarios,erro,intervalo) if x_n.round(1) != intervalo.last
+	ABM(m,h,passos_intermediarios,erro,intervalo) if x_n.round(1) < intervalo.last
 
 	return passos_intermediarios
 end
