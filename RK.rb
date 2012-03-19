@@ -1,3 +1,4 @@
+#Runge-Kutta ordem 4
 def rk4(x_atual, y_atual, h, intervalo)
 	resultados = {x_atual => y_atual}
 
@@ -17,6 +18,7 @@ def rk4(x_atual, y_atual, h, intervalo)
 	return resultados
 end
 
+#Runge-Kutta ordem 2
 def rk2(x_atual, y_atual, h, intervalo)
 	resultados = {x_atual => y_atual}
 
